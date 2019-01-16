@@ -1,0 +1,18 @@
+system:
+  sysId: v0.1
+  author: jf
+
+spring:
+  datasource:
+    name: focus
+    url: jdbc://192.168.234.1:5432/focus
+    driver-class-name: com.mysql.jdbc.Driver
+    username: root
+    password:
+
+  thymeleaf:
+    prefix: classpath:/templates/
+    suffix: .html
+
+
+#  config-location: classpath:
